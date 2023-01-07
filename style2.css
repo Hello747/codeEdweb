@@ -1,0 +1,29 @@
+.mid-text{
+	position: absolute;
+	top: 25%;
+	left: 15%;
+	transform: translate(-50%, -50%);
+}
+.mid-text p{
+	font-size: 100px;
+	font-family: serif;
+	letter-spacing:2px;
+	color: #0e3742;
+	width: 100%;
+	-webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+	line-height: 0.70em;
+	outline:none;
+	animation: animate 3s linear infinite;
+	text-shadow: 0 0 10px #808080,
+				 0 0 20px #808080,
+				 0 0 40px #808080,
+				 0 0 80px #808080,
+				 0 0 160px #808080;
+}
+.aboutuss{
+	padding: 0px 100px;
+	text-align: left;
+	background-color: #DBF9FC;
+	float: right;
+	width: 300px;
+}
